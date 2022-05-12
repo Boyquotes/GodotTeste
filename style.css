@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: #1EC0FD;
+    --cor1: #1B78E3;
+    --cor2: #2B54FA;
+    --cor3: #281BE3;
+    --cor4: #6A1EFD;
+
+    --fonte: 'Work Sans', 'cursive';
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
+    min-height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header > h1{
+     color: white;
+     font-family: var(--fonte);
+     font-size: 3em;
+     margin-bottom: 10px;
+     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+}
+nav{
+    background-color: var(--cor4);
+    padding: 10px;
+}
+
+nav > a{
+    color: var(--cor0);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.699);
+    color: var(--cor3);
+}
+
+main{
+    padding: 20px;
+}
+main div#conteudo > p{
+    margin: 15px 10px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+div#conteudo{
+    margin: 15px 10px;
+}
+
+footer{
+    background: vaR(--cor4);
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
+div{
+    display: inline-block; 
+    text-align: center;  
+}
+div#redes{
+    padding: 15px;
+    height: 100px;
+    width: 200px;
+}
+div#redes > h5{
+    font-size: 1.5em;
+    
+}
+div#redes > p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div#icon > a{
+    padding: 5px;
+    margin: 5px;
+    
+}
