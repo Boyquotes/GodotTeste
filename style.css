@@ -14,12 +14,16 @@
 
     --fonte: 'Work Sans', 'cursive';
 }
+body{
+    background-color: rgba(128, 128, 128, 0.267);
+}
 
 header{
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
     min-height: 100px;
     text-align: center;
     padding-top: 30px;
+    width: 100%;
     
 }
 
@@ -66,23 +70,15 @@ main div#conteudo > p{
     font-size: 1em;
     line-height: 2em;
 }
-div#conteudo{
-    display: inline-block;
-}
-div#texto{
-    padding: 30px;
-    margin: 10px;
-    text-align: justify;
-    height: 231px;
-    width: 500px;
-}
 
 footer{
     background: vaR(--cor4);
     text-align: center;
     padding: 10px;
     font-size: 1em;
+    height: 200px;
 }
+
 div{
     display: inline-block; 
     text-align: center;  
@@ -90,8 +86,8 @@ div{
 
 div#redes{
     padding: 15px;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 200px;
 }
 div#redes > h5{
     font-size: 1.5em;

@@ -9,24 +9,31 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/7dd377578b.js" crossorigin="anonymous"></script>
 </head>
-<body>
-   <se3>
+<body onload="startTime()">
         
-        <header>
+        <header class="header">
             <h1>Reviver Home Care</h1>
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="#">Notícias</a>
+                <a href="#">Contato</a>
+                <a href="#">Quem somos</a>
+                <div id="txt">
+    
+                </div>
+            </nav>
         </header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="produtos.html">Produtos</a>
-            <a href="#">Notícias</a>
-            <a href="#">Contato</a>
-            <a href="#">Quem somos</a>
-        </nav>
-        <section>
+        
             <main>
                 <div id="conteudo">
-                    <h2>Quem somos</h2>
-                    <img src="Fotos/Logo.jpeg" alt="Logo">
+                    
+                    <h2>QUEM SOMOS</h2>
+                    <picture>
+                        <source media="(max-width: 530px)" srcset="Fotos/Logo-pq.png">
+                        <img src="Fotos/Logo.jpeg" alt="Logo">
+                    </source>
+                    </picture>
                         <p>
                             A<strong> Viver a Vida Home Care</strong> – Plano de  acompanhamento profissional para Idosos
                             Desde 1999 a Viver a Vida Home Care no mercado, com uma visão de futuro voltada na melhor forma de envelhecimento dos nossos clientes, a Viver a Vida HC Autogestão em acompanhamento, lazer e atividades que promovem a saúde é uma das mais importantes operadoras de planos de cuidadores de idosos do Brasil para servidores públicos. Em sua trajetória, a empresa tornou-se referência no mercado de acompanhamento suplementar ao investir de forma pioneira num modelo assistencial focado na promoção da saúde, prevenção de doenças e na melhoria da qualidade de vida dos assistidos.
@@ -66,9 +73,13 @@
                         você encontrará um pensado especialmente para você. Somos a melhor opção para o seu
                         familiar.
                     </p>
+                    
+                    <div class="video">
+                        <iframe></iframe>
+                    </div>
                 </div>
             </main>
-        </section>
+        
         <footer>
         
                 <div id="redes">
@@ -82,7 +93,6 @@
         
             </div>
         </footer>
-    </se3>
     <script src="script.js"></script>
 </body>
 </html>
